@@ -170,13 +170,17 @@ swiggy-restaurant-performance-analysis/
 
 # Dashboard Preview
 
-Executive Overview
+<h2>📊 Executive Overview Dashboard</h2>
 
-<Image>
+<p align="center">
+  <img src="images/D 1.png" width="100%">
+</p>
 
-Restaurant Performance Dashboard
+<h2>🍽️ Restaurant Performance Dashboard</h2>
 
-<Image>
+<p align="center">
+  <img src="images/D 2.png" width="100%">
+</p>
 
 ## ⭐ Project Highlights
 
