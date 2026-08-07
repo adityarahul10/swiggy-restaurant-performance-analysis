@@ -248,12 +248,13 @@ Based on the analysis, the following recommendations are proposed:
 4. Open the Power BI dashboard (`.pbix`) file to explore the visualizations.
 5. Review the complete project documentation in the `docs` folder.
 
-## 📁 Repository Structure
+## 📂 Repository Structure
 
 ```text
 swiggy-restaurant-performance-analysis/
 │
 ├── 📄 README.md
+├── 📄 LICENSE
 │
 ├── 📂 docs
 │   └── Swiggy_Restaurant_Performance_Analysis.pdf
@@ -265,16 +266,18 @@ swiggy-restaurant-performance-analysis/
 │   └── 04_KPI_Definition.sql
 │
 ├── 📂 dashboard
-│   ├── Swiggy_Dashboard.pbix
-│   └── Dashboard_Screenshot.png
+│   └── Swiggy_Dashboard.pbix
 │
 ├── 📂 dataset
-│   └── Swiggy_Restaurant_Dataset.csv
+│   ├── swiggy.csv
+│   └── README.md
 │
-└── 📂 images
-    ├── cover.png
-    ├── workflow.png
-    └── dashboard.png
+├── 📂 images
+│   ├── Banner.png
+│   ├── executive-overview.png
+│   └── restaurant-performance.png
+│
+└── LICENSE
 ```
 
 ## 👨‍💻 Author
