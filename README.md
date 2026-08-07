@@ -168,15 +168,45 @@ swiggy-restaurant-performance-analysis/
     └── dashboard.png
 ```
 
-# Dashboard Preview
+# 📊 Interactive Power BI Dashboards
 
-<h2>📊 Executive Overview Dashboard</h2>
+The project includes two business-focused Power BI dashboards designed for different stakeholders.
+
+## Dashboard 1 – <h2>📊 Executive Overview Dashboard</h2>
+
+Purpose:
+Provides a high-level overview of the Swiggy restaurant ecosystem.
+
+Highlights
+• Total Restaurants
+• Average Rating
+• Average Delivery Time
+• Average Price
+• Fast Delivery %
+• Restaurant Distribution by City
+• Cuisine Analysis
+• Delivery Performance
+• Pricing Insights
 
 <p align="center">
   <img src="images/D 1.png" width="100%">
 </p>
 
-<h2>🍽️ Restaurant Performance Dashboard</h2>
+## Dashboard 2 – <h2>🍽️ Restaurant Performance Dashboard</h2>
+
+Purpose:
+Helps identify the best-performing restaurants and customer engagement patterns.
+
+Highlights
+
+• Highest Rated Restaurant
+• Most Popular Restaurant
+• Top Rated City
+• Restaurants Rated 4.5+
+• Top 10 Most Popular Restaurants
+• Restaurant Performance Leaderboard
+• Delivery Speed vs Customer Rating
+• Rating by Price Category
 
 <p align="center">
   <img src="images/D 2.png" width="100%">
