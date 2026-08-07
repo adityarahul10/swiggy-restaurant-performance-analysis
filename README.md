@@ -223,6 +223,25 @@ Highlights
 - ✔ Generated actionable business recommendations.
 - ✔ Designed as an end-to-end Data Analytics case study.
 
+## 🔬 Methodology
+
+- **Business Understanding** – Defined the business problem and objectives.
+- **Data Quality Assessment** – Identified and cleaned missing, duplicate, and invalid records.
+- **Exploratory Data Analysis** – Analyzed ratings, pricing, cuisines, and delivery performance using SQL.
+- **KPI Development** – Created business KPIs to measure restaurant performance.
+- **Dashboard Development** – Built two interactive Power BI dashboards.
+- **Business Insights** – Generated actionable insights and recommendations.
+
+## 🧠 Skills Demonstrated
+
+**SQL:** Data Cleaning, Data Quality Assessment, Joins, CTEs, Window Functions, Aggregate Functions, CASE Statements, Exploratory Data Analysis (EDA), KPI Development
+
+**Power BI:** DAX, Calculated Columns, Data Modeling, Interactive Dashboards, KPI Design, Conditional Formatting, Data Visualization
+
+**Business Analysis:** Business Problem Solving, Business Insights, Restaurant Performance Analysis, Customer Satisfaction Analysis, Pricing Analysis, Delivery Performance Analysis
+
+**Tools:** SQL Server, Power BI Desktop, Git, GitHub
+
 ## 📈 Key Business Insights
 
 - 📍 Kolkata has the highest restaurant concentration but also the slowest average delivery time.
@@ -244,17 +263,6 @@ Based on the analysis, the following recommendations are proposed:
 - 🌆 Replicate Chennai's operational success in cities with lower customer satisfaction.
 - 📈 Focus business expansion on high-engagement markets such as Hyderabad.
 
-## 🚀 Future Improvements
-
-Future enhancements for this project include:
-
-- Develop an interactive Power BI dashboard.
-- Perform customer segmentation analysis.
-- Build predictive models for restaurant ratings.
-- Create an automated SQL reporting pipeline.
-- Develop an executive dashboard for business stakeholders.
-- Perform sentiment analysis using customer reviews.
-
 ## ▶️ How to Use This Project
 
 1. Download the dataset from the `dataset` folder.
@@ -267,23 +275,6 @@ Future enhancements for this project include:
 
 4. Open the Power BI dashboard (`.pbix`) file to explore the visualizations.
 5. Review the complete project documentation in the `docs` folder.
-
-## 🧠 Skills Demonstrated
-
-- SQL
-- Data Cleaning
-- Data Quality Assessment
-- Exploratory Data Analysis (EDA)
-- Common Table Expressions (CTEs)
-- Window Functions
-- Aggregate Functions
-- Statistical Analysis
-- KPI Development
-- Business Analysis
-- Data Storytelling
-- Power BI
-- Data Visualization
-- Git & GitHub
 
 ## 👨‍💻 Author
 
