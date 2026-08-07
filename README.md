@@ -140,35 +140,6 @@ Business Recommendations
 Power BI Dashboard
 ```
 
-## 📁 Repository Structure
-
-```text
-swiggy-restaurant-performance-analysis/
-│
-├── 📄 README.md
-│
-├── 📂 docs
-│   └── Swiggy_Restaurant_Performance_Analysis.pdf
-│
-├── 📂 sql
-│   ├── 01_Data_Quality_Assessment.sql
-│   ├── 02_Exploratory_Data_Analysis.sql
-│   ├── 03_Advanced_Analysis.sql
-│   └── 04_KPI_Definition.sql
-│
-├── 📂 dashboard
-│   ├── Swiggy_Dashboard.pbix
-│   └── Dashboard_Screenshot.png
-│
-├── 📂 dataset
-│   └── Swiggy_Restaurant_Dataset.csv
-│
-└── 📂 images
-    ├── cover.png
-    ├── workflow.png
-    └── dashboard.png
-```
-
 # 📊 Interactive Power BI Dashboards
 
 The project includes two business-focused Power BI dashboards designed for different stakeholders.
@@ -276,6 +247,35 @@ Based on the analysis, the following recommendations are proposed:
 
 4. Open the Power BI dashboard (`.pbix`) file to explore the visualizations.
 5. Review the complete project documentation in the `docs` folder.
+
+## 📁 Repository Structure
+
+```text
+swiggy-restaurant-performance-analysis/
+│
+├── 📄 README.md
+│
+├── 📂 docs
+│   └── Swiggy_Restaurant_Performance_Analysis.pdf
+│
+├── 📂 sql
+│   ├── 01_Data_Quality_Assessment.sql
+│   ├── 02_Exploratory_Data_Analysis.sql
+│   ├── 03_Advanced_Analysis.sql
+│   └── 04_KPI_Definition.sql
+│
+├── 📂 dashboard
+│   ├── Swiggy_Dashboard.pbix
+│   └── Dashboard_Screenshot.png
+│
+├── 📂 dataset
+│   └── Swiggy_Restaurant_Dataset.csv
+│
+└── 📂 images
+    ├── cover.png
+    ├── workflow.png
+    └── dashboard.png
+```
 
 ## 👨‍💻 Author
 
