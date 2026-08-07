@@ -32,7 +32,6 @@ The project focuses on identifying the factors influencing customer satisfaction
 - [Dataset Information](#-dataset-information)
 - [Tech Stack](#️-tech-stack)
 - [Project Workflow](#-project-workflow)
-- [Repository Structure](#-repository-structure)
 - [Interactive Power BI Dashboards](#-Interactive-Power-BI-Dashboards)
 - [Project Highlights](#-project-highlights)
 - [Methodology](#-Methodology)
@@ -40,6 +39,7 @@ The project focuses on identifying the factors influencing customer satisfaction
 - [Key Business Insights](#-key-business-insights)
 - [Business Recommendations](#-business-recommendations)
 - [How to Use This Project](#️-how-to-use-this-project)
+- [Repository Structure](#-repository-structure)
 - [Author](#-author)
 
 ## 📖 Project Overview
