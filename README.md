@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.png" alt="Swiggy Restaurant Performance Analysis Banner">
+  <img src="images/Banner.png" alt="Swiggy Restaurant Performance Analysis Banner">
 </p>
 
 <p align="center">
@@ -189,7 +189,7 @@ Highlights
 • Pricing Insights
 
 <p align="center">
-  <img src="images/D 1.png" width="100%">
+  <img src="images/Dashboard_1.png" width="100%">
 </p>
 
 ## Dashboard 2 – <h2>🍽️ Restaurant Performance Dashboard</h2>
@@ -209,7 +209,7 @@ Highlights
 • Rating by Price Category
 
 <p align="center">
-  <img src="images/D 2.png" width="100%">
+  <img src="images/Dashboard_2.png" width="100%">
 </p>
 
 ## ⭐ Project Highlights
