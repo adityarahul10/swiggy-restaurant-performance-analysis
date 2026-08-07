@@ -168,6 +168,16 @@ swiggy-restaurant-performance-analysis/
     └── dashboard.png
 ```
 
+# Dashboard Preview
+
+Executive Overview
+
+<Image>
+
+Restaurant Performance Dashboard
+
+<Image>
+
 ## ⭐ Project Highlights
 
 - ✔ Performed comprehensive Data Quality Assessment before analysis.
@@ -228,6 +238,7 @@ Future enhancements for this project include:
 
 - SQL
 - Data Cleaning
+- Data Quality Assessment
 - Exploratory Data Analysis (EDA)
 - Common Table Expressions (CTEs)
 - Window Functions
@@ -237,6 +248,7 @@ Future enhancements for this project include:
 - Business Analysis
 - Data Storytelling
 - Power BI
+- Data Visualization
 - Git & GitHub
 
 ## 👨‍💻 Author
