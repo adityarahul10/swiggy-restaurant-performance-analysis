@@ -18,9 +18,9 @@
 
 # 🍽️ Swiggy Restaurant Performance & Market Analysis
 
-An end-to-end SQL Data Analytics project that analyzes restaurant performance across multiple Indian cities using the Swiggy Restaurant Dataset.
+An end-to-end SQL and Power BI analytics project analyzing 8,680 restaurants across 9 Indian cities using the Swiggy Restaurant Dataset.
 
-The project focuses on identifying the factors influencing customer satisfaction, restaurant performance, pricing strategy, delivery efficiency, and customer engagement through SQL-based analysis and business storytelling.
+The project evaluates restaurant performance, customer ratings, pricing patterns, delivery efficiency, and customer engagement through data quality assessment, exploratory analysis, advanced SQL, statistical analysis, KPI development, and interactive Power BI dashboards.
 
 ---
 
@@ -64,14 +64,14 @@ This project aims to analyze restaurant performance using SQL by answering key b
 
 The project focuses on answering the following business questions:
 
-- Analyze the distribution of restaurants across different cities.
-- Identify cities with the highest restaurant concentration.
-- Compare customer satisfaction across cities.
-- Analyze pricing patterns and their relationship with ratings.
-- Evaluate delivery performance across cities and areas.
-- Identify top-performing restaurants based on customer ratings and engagement.
-- Discover the factors that influence customer satisfaction.
-- Generate actionable business recommendations based on data.
+- Analyze the distribution of restaurants across cities.
+- Compare customer ratings across cities and restaurant segments.
+- Evaluate the relationship between pricing, ratings, and delivery time.
+- Analyze delivery performance across cities.
+- Identify high-performing restaurants based on ratings and customer engagement.
+- Analyze cuisine-level rating patterns.
+- Develop KPIs for restaurant and platform performance.
+- Generate evidence-based business recommendations.
 
 ## 📊 Dataset Information
 
@@ -82,6 +82,15 @@ The project focuses on answering the following business questions:
 | **Total Records**  | 8,680                                |
 | **Total Features** | 10                                   |
 | **Domain**         | Food Delivery / Restaurant Analytics |
+
+### Data Quality Notes
+
+The dataset was assessed for:
+
+- Missing and blank values
+- Invalid price values
+- Duplicate records
+- Rating and delivery-time anomalies
 
 ### Dataset Features
 
@@ -114,30 +123,33 @@ The project focuses on answering the following business questions:
 
 ```text
 Business Problem
-        │
-        ▼
+       │
+       ▼
 Dataset Understanding
-        │
-        ▼
+       │
+       ▼
 Data Quality Assessment
-        │
-        ▼
-Exploratory Data Analysis (EDA)
-        │
-        ▼
+       │
+       ▼
+Exploratory Data Analysis
+       │
+       ▼
 Advanced SQL Analysis
-        │
-        ▼
+       │
+       ▼
+Statistical Analysis
+       │
+       ▼
 KPI Development
-        │
-        ▼
+       │
+       ▼
+Power BI Dashboards
+       │
+       ▼
 Business Insights
-        │
-        ▼
-Business Recommendations
-        │
-        ▼
-Power BI Dashboard
+       │
+       ▼
+Recommendations
 ```
 
 # 📊 Interactive Power BI Dashboards
@@ -164,21 +176,20 @@ Highlights
   <img src="images/executive-overview.png" width="100%">
 </p>
 
-## Dashboard 2 – <h2>🍽️ Restaurant Performance Dashboard</h2>
+### Dashboard 2 – 🍽️ Restaurant Performance Dashboard
 
-Purpose:
-Helps identify the best-performing restaurants and customer engagement patterns.
+**Purpose:** Evaluates restaurant performance, customer engagement, delivery efficiency, and pricing patterns.
 
-Highlights
+**Highlights**
 
-• Highest Rated Restaurant
-• Most Popular Restaurant
-• Top Rated City
-• Restaurants Rated 4.5+
-• Top 10 Most Popular Restaurants
-• Restaurant Performance Leaderboard
-• Delivery Speed vs Customer Rating
-• Rating by Price Category
+- Top-Rated Restaurant
+- Fast Delivery Rating
+- Top-Rated City
+- Restaurants Rated 4.5+
+- Top 10 Most Popular Restaurants
+- Restaurant Performance Leaderboard
+- Delivery Speed vs Customer Rating
+- Average Rating by Price Category
 
 <p align="center">
   <img src="images/restaurant-performance.png" width="100%">
