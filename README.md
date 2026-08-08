@@ -176,7 +176,7 @@ Highlights
   <img src="images/executive-overview.png" width="100%">
 </p>
 
-### Dashboard 2 – 🍽️ Restaurant Performance Dashboard
+<h2> Dashboard 2 – 🍽️ Restaurant Performance Dashboard </h2>
 
 **Purpose:** Evaluates restaurant performance, customer engagement, delivery efficiency, and pricing patterns.
 
