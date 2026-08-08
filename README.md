@@ -288,31 +288,33 @@ Highlights
 
 ## 📂 Repository Structure
 
+```text
 swiggy-restaurant-performance-analysis/
 │
 ├── README.md
 ├── LICENSE
 │
 ├── docs/
-│ └── Swiggy_Restaurant_Performance_Analysis.pdf
+│   └── Swiggy_Restaurant_Performance_Analysis.pdf
 │
 ├── sql/
-│ ├── 01_Data_Quality_Assessment.sql
-│ ├── 02_Exploratory_Data_Analysis.sql
-│ ├── 03_Advanced_Analysis.sql
-│ └── 04_KPI_Definition.sql
+│   ├── 01_Data_Quality_Assessment.sql
+│   ├── 02_Exploratory_Data_Analysis.sql
+│   ├── 03_Advanced_Analysis.sql
+│   └── 04_KPI_Definition.sql
 │
 ├── dashboard/
-│ └── Swiggy_Dashboard.pbix
+│   └── Swiggy_Dashboard.pbix
 │
 ├── dataset/
-│ ├── swiggy.csv
-│ └── README.md
+│   ├── swiggy.csv
+│   └── README.md
 │
 └── images/
-├── Banner.png
-├── executive-overview.png
-└── restaurant-performance.png
+    ├── Banner.png
+    ├── executive-overview.png
+    └── restaurant-performance.png
+```
 
 ## 👨‍💻 Author
 
