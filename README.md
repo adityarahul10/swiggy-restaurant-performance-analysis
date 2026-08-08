@@ -156,7 +156,7 @@ Recommendations
 
 The project includes two business-focused Power BI dashboards designed for different stakeholders.
 
-## Dashboard 1 – <h2>📊 Executive Overview Dashboard</h2>
+<h2> Dashboard 1 – 📊 Executive Overview Dashboard</h2>
 
 Purpose:
 Provides a high-level overview of the Swiggy restaurant ecosystem.
@@ -197,54 +197,81 @@ Highlights
 
 ## ⭐ Project Highlights
 
-- ✔ Performed comprehensive Data Quality Assessment before analysis.
-- ✔ Conducted Exploratory Data Analysis (EDA) to answer key business questions.
-- ✔ Used Advanced SQL techniques including CTEs and Window Functions.
-- ✔ Developed business-focused KPIs to measure platform performance.
-- ✔ Performed statistical analysis using mean, median, and standard deviation.
-- ✔ Identified factors influencing customer satisfaction.
-- ✔ Generated actionable business recommendations.
-- ✔ Designed as an end-to-end Data Analytics case study.
+- Performed data quality assessment covering missing values, invalid prices, and duplicate records.
+- Conducted exploratory and advanced SQL analysis across 8,680 restaurant records.
+- Used CTEs, window functions, conditional logic, and statistical measures for analysis.
+- Evaluated relationships between pricing, ratings, and delivery time using correlation analysis.
+- Developed business-focused KPIs and two interactive Power BI dashboards.
+- Translated analytical findings into business insights and recommendations.
 
 ## 🔬 Methodology
 
-- **Business Understanding** – Defined the business problem and objectives.
-- **Data Quality Assessment** – Identified and cleaned missing, duplicate, and invalid records.
-- **Exploratory Data Analysis** – Analyzed ratings, pricing, cuisines, and delivery performance using SQL.
-- **KPI Development** – Created business KPIs to measure restaurant performance.
-- **Dashboard Development** – Built two interactive Power BI dashboards.
-- **Business Insights** – Generated actionable insights and recommendations.
+1. **Business Understanding** – Defined the business questions and analytical objectives.
+
+2. **Data Quality Assessment** – Checked missing values, invalid prices, duplicates, and data consistency.
+
+3. **Exploratory Data Analysis** – Analyzed restaurant distribution, ratings, pricing, cuisines, and delivery performance.
+
+4. **Advanced SQL Analysis** – Used CTEs, joins, window functions, ranking, segmentation, and aggregation to answer business questions.
+
+5. **Statistical Analysis** – Evaluated descriptive statistics and correlations between pricing, ratings, and delivery time.
+
+6. **KPI Development** – Defined platform and restaurant performance metrics.
+
+7. **Power BI Development** – Built two interactive dashboards for executive and restaurant-level analysis.
+
+8. **Business Interpretation** – Converted analytical findings into practical recommendations while distinguishing association from causation.
 
 ## 🧠 Skills Demonstrated
 
-**SQL:** Data Cleaning, Data Quality Assessment, Joins, CTEs, Window Functions, Aggregate Functions, CASE Statements, Exploratory Data Analysis (EDA), KPI Development
+**SQL:** Data Cleaning, Data Quality Assessment, Joins, CTEs, Window Functions, CASE Statements, Aggregate Functions, Ranking, Exploratory Data Analysis, KPI Development
 
-**Power BI:** DAX, Calculated Columns, Data Modeling, Interactive Dashboards, KPI Design, Conditional Formatting, Data Visualization
+**Statistics:** Descriptive Statistics, Correlation Analysis, Distribution Analysis
 
-**Business Analysis:** Business Problem Solving, Business Insights, Restaurant Performance Analysis, Customer Satisfaction Analysis, Pricing Analysis, Delivery Performance Analysis
+**Power BI:** DAX, Calculated Columns, Data Modeling, Interactive Dashboards, Conditional Formatting, KPI Design, Data Visualization
 
-**Tools:** SQL Server, Power BI Desktop, Git, GitHub
+**Business Analysis:** Business Problem Solving, Performance Analysis, Customer Satisfaction Analysis, Pricing Analysis, Delivery Performance Analysis
+
+**Tools:** SQL Server, SSMS, Power BI Desktop, Git, GitHub
 
 ## 📈 Key Business Insights
 
-- 📍 Kolkata has the highest restaurant concentration but also the slowest average delivery time.
-- ⭐ Chennai achieved the highest average customer rating among all cities.
-- 🚚 Faster deliveries are associated with higher customer ratings.
-- 💰 Premium-priced restaurants consistently received better customer ratings.
-- 🍦 Specialty food brands (Ice Cream, Bakery, Coffee, Desserts) significantly outperformed mass-market cuisines.
-- ❤️ Hyderabad generated the highest customer engagement despite having fewer restaurants than Kolkata.
-- 📊 Customer ratings remained relatively consistent, while restaurant pricing showed high variability.
+- **Kolkata** has the highest restaurant concentration with 1,346 restaurants, but also the slowest average delivery time at 68 minutes.
+
+- **Chennai** has the highest city-level average rating at 3.78 across 1,106 restaurants.
+
+- Restaurants with **fast delivery (<40 minutes)** have the highest average rating at 3.82, compared with 3.64 for medium delivery and 3.58 for slow delivery.
+
+- The relationship between **delivery time and rating is weakly negative (r = -0.1467)**, indicating an association rather than a causal effect.
+
+- **High-priced restaurants** have an average rating of 3.79 compared with 3.66 for low-priced and 3.61 for medium-priced restaurants.
+
+- The relationship between **price and rating is weakly positive (r = 0.1135)**, suggesting that price alone is not a strong predictor of customer ratings.
+
+- Customer engagement is concentrated among a relatively small group of highly reviewed restaurants, highlighting the importance of reputation and review volume.
 
 ## 💡 Business Recommendations
 
-Based on the analysis, the following recommendations are proposed:
+- **Prioritize delivery efficiency in Kolkata**, where average delivery time is the highest among the analyzed cities.
 
-- 🚚 Improve delivery efficiency in Kolkata to reduce delivery time and enhance customer satisfaction.
-- 🍦 Increase the visibility of high-performing specialty food categories such as Ice Cream, Bakery, Coffee, and Desserts.
-- ⭐ Encourage restaurants to achieve faster delivery through operational improvements and delivery partner optimization.
-- 📚 Study operational practices of top-performing restaurants and replicate successful strategies across lower-performing restaurants.
-- 🌆 Replicate Chennai's operational success in cities with lower customer satisfaction.
-- 📈 Focus business expansion on high-engagement markets such as Hyderabad.
+- **Benchmark high-performing cities such as Chennai** to identify operational practices that could be applied to lower-rated markets.
+
+- **Monitor delivery performance alongside customer ratings**, as faster-delivery segments show higher average ratings, although the relationship is not causal based on this analysis.
+
+- **Avoid relying on price as a primary indicator of customer satisfaction**, given the weak correlation between price and rating.
+
+- **Identify and study high-engagement restaurants** to understand practices associated with stronger customer participation and review volume.
+
+- **Use cuisine-level performance analysis** to identify categories with consistently higher customer ratings and evaluate opportunities for targeted promotion.
+
+## ⚠️ Limitations
+
+- The dataset is a static restaurant-level dataset and does not contain transaction-level order data.
+- The analysis is cross-sectional and therefore cannot establish causal relationships.
+- Correlation results indicate association, not causation.
+- Restaurant ratings and review counts may reflect historical customer behavior and may not represent current performance.
+- Duplicate records and invalid price values were assessed during data quality analysis; documented assumptions were retained where the dataset did not provide enough information to determine record validity.
+- The dataset does not include customer-level, order-level, or revenue-level information, limiting deeper analysis of customer behavior and financial performance.
 
 ## ▶️ How to Use This Project
 
@@ -261,35 +288,31 @@ Based on the analysis, the following recommendations are proposed:
 
 ## 📂 Repository Structure
 
-```text
 swiggy-restaurant-performance-analysis/
 │
-├── 📄 README.md
-├── 📄 LICENSE
+├── README.md
+├── LICENSE
 │
-├── 📂 docs
-│   └── Swiggy_Restaurant_Performance_Analysis.pdf
+├── docs/
+│ └── Swiggy_Restaurant_Performance_Analysis.pdf
 │
-├── 📂 sql
-│   ├── 01_Data_Quality_Assessment.sql
-│   ├── 02_Exploratory_Data_Analysis.sql
-│   ├── 03_Advanced_Analysis.sql
-│   └── 04_KPI_Definition.sql
+├── sql/
+│ ├── 01_Data_Quality_Assessment.sql
+│ ├── 02_Exploratory_Data_Analysis.sql
+│ ├── 03_Advanced_Analysis.sql
+│ └── 04_KPI_Definition.sql
 │
-├── 📂 dashboard
-│   └── Swiggy_Dashboard.pbix
+├── dashboard/
+│ └── Swiggy_Dashboard.pbix
 │
-├── 📂 dataset
-│   ├── swiggy.csv
-│   └── README.md
+├── dataset/
+│ ├── swiggy.csv
+│ └── README.md
 │
-├── 📂 images
-│   ├── Banner.png
-│   ├── executive-overview.png
-│   └── restaurant-performance.png
-│
-└── LICENSE
-```
+└── images/
+├── Banner.png
+├── executive-overview.png
+└── restaurant-performance.png
 
 ## 👨‍💻 Author
 
