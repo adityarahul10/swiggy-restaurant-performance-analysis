@@ -196,7 +196,7 @@ Highlights
   <img src="images/restaurant-performance.png" width="100%">
 </p>
 
-📄 **[View Complete Project Report](docs/Swiggy_Restaurant_Performance_Analysis.pdf)**
+📄 **[View Complete Project Report](docs/Swiggy%20Restaurant%20Performance%20&%20Market%20Analysis.pdf)**
 
 ## ⭐ Project Highlights
 
