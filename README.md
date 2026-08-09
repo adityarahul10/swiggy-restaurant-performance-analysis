@@ -83,6 +83,16 @@ The project focuses on answering the following business questions:
 | **Total Features** | 10                                   |
 | **Domain**         | Food Delivery / Restaurant Analytics |
 
+### Dataset Source
+
+The dataset used in this project was obtained from Kaggle:
+
+**[Swiggy Restaurant Dataset – Kaggle](https://www.kaggle.com/datasets/abhijitdahatonde/swiggy-restuarant-dataset/data)**
+
+The dataset contains 8,680 restaurant records across 9 Indian cities.
+
+For detailed dataset documentation, column definitions, and source information, see [`dataset/README.md`](dataset/README.md).
+
 ### Data Quality Notes
 
 The dataset was assessed for:
@@ -196,7 +206,7 @@ Highlights
   <img src="images/restaurant-performance.png" width="100%">
 </p>
 
-<h2>📄 **[View Complete Project Report](docs/Swiggy%20Restaurant%20Performance%20&%20Market%20Analysis.pdf)**</h2>
+📄 **[View Complete Project Report](docs/Swiggy%20Restaurant%20Performance%20&%20Market%20Analysis.pdf)**
 
 ## ⭐ Project Highlights
 
