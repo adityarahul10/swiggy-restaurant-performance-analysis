@@ -32,12 +32,13 @@ The project evaluates restaurant performance, customer ratings, pricing patterns
 - [Dataset Information](#-dataset-information)
 - [Tech Stack](#️-tech-stack)
 - [Project Workflow](#-project-workflow)
-- [Interactive Power BI Dashboards](#-Interactive-Power-BI-Dashboards)
+- [Interactive Power BI Dashboards](#-interactive-power-bi-dashboards)
 - [Project Highlights](#-project-highlights)
-- [Methodology](#-Methodology)
+- [Methodology](#-methodology)
 - [Skills Demonstrated](#-skills-demonstrated)
 - [Key Business Insights](#-key-business-insights)
 - [Business Recommendations](#-business-recommendations)
+- [Limitations](#️-limitations)
 - [How to Use This Project](#️-how-to-use-this-project)
 - [Repository Structure](#-repository-structure)
 - [Author](#-author)
@@ -56,7 +57,7 @@ The objective was not only to answer business questions but also to demonstrate 
 
 Food delivery platforms like Swiggy rely on restaurant quality, pricing, customer satisfaction, and delivery efficiency to maintain customer loyalty and business growth.
 
-However, with thousands of restaurants operating across multiple cities, identifying the factors that influence restaurant performance becomes challenging.
+This project analyzes restaurant performance using customer ratings, pricing, delivery performance, cuisine categories, and customer engagement. The goal is to identify important performance patterns, evaluate relationships between key metrics, and generate evidence-based recommendations to support business and customer experience decisions.
 
 This project aims to analyze restaurant performance using SQL by answering key business questions related to customer ratings, pricing, delivery performance, cuisine preferences, and customer engagement. The goal is to generate actionable insights that can support better business decisions and improve the overall customer experience.
 
@@ -72,6 +73,16 @@ The project focuses on answering the following business questions:
 - Analyze cuisine-level rating patterns.
 - Develop KPIs for restaurant and platform performance.
 - Generate evidence-based business recommendations.
+
+## ❓ Key Business Questions
+
+- Which cities have the highest restaurant concentration?
+- Which cities have the highest average restaurant ratings?
+- What are the most common food-type categories?
+- How are restaurant ratings related to pricing?
+- How are delivery times associated with customer ratings?
+- Which restaurants demonstrate strong ratings and customer engagement?
+- Which cities and restaurant segments show notable performance patterns?
 
 ## 📊 Dataset Information
 
@@ -173,13 +184,8 @@ Provides a high-level overview of the Swiggy restaurant ecosystem.
 
 Highlights
 
-- Total Restaurants
-- Average Rating
-- Average Delivery Time
-- Average Price
-- Fast Delivery %
 - Restaurant Distribution by City
-- Cuisine Analysis
+- Food-Type Category Analysis
 - Delivery Performance
 - Pricing Insights
 
@@ -243,7 +249,7 @@ Highlights
 
 **Power BI:** DAX, Calculated Columns, Data Modeling, Interactive Dashboards, Conditional Formatting, KPI Design, Data Visualization
 
-**Business Analysis:** Business Problem Solving, Performance Analysis, Customer Satisfaction Analysis, Pricing Analysis, Delivery Performance Analysis
+**Business Analysis:** Business Problem Solving, Performance Analysis, Customer Rating Analysis, Pricing Analysis, Delivery Performance Analysis
 
 **Tools:** SQL Server, SSMS, Power BI Desktop, Git, GitHub
 
@@ -261,21 +267,21 @@ Highlights
 
 - The relationship between **price and rating is weakly positive (r = 0.1135)**, suggesting that price alone is not a strong predictor of customer ratings.
 
-- Customer engagement is concentrated among a relatively small group of highly reviewed restaurants, highlighting the importance of reputation and review volume.
+- Customer engagement is concentrated among a relatively small group of highly reviewed restaurants, with a limited number of restaurants accounting for a substantial share of total review volume.
 
 ## 💡 Business Recommendations
 
-- **Prioritize delivery efficiency in Kolkata**, where average delivery time is the highest among the analyzed cities.
+- **Improve delivery efficiency in Kolkata:** Investigate delivery bottlenecks and work toward reducing the city's above-average delivery time.
 
-- **Benchmark high-performing cities such as Chennai** to identify operational practices that could be applied to lower-rated markets.
+- **Benchmark high-performing restaurants:** Analyze top-rated restaurants and specialty categories to identify practices that can be shared with lower-performing restaurant partners.
 
-- **Monitor delivery performance alongside customer ratings**, as faster-delivery segments show higher average ratings, although the relationship is not causal based on this analysis.
+- **Monitor delivery performance:** Use delivery-time benchmarks to identify cities and restaurant segments with consistently longer delivery times.
 
-- **Avoid relying on price as a primary indicator of customer satisfaction**, given the weak correlation between price and rating.
+- **Replicate high-performing city practices:** Study Chennai's restaurant mix, delivery performance, and customer-rating patterns for practices that may be transferable to lower-rated markets.
 
-- **Identify and study high-engagement restaurants** to understand practices associated with stronger customer participation and review volume.
+- **Leverage high-engagement markets:** Use Hyderabad as a benchmark for customer engagement and investigate factors contributing to higher review activity.
 
-- **Use cuisine-level performance analysis** to identify categories with consistently higher customer ratings and evaluate opportunities for targeted promotion.
+- **Avoid using price as a primary satisfaction proxy:** The weak price-rating correlation suggests that pricing alone is not a strong predictor of customer ratings.
 
 ## ⚠️ Limitations
 
@@ -288,7 +294,7 @@ Highlights
 
 ## ▶️ How to Use This Project
 
-1. Download the dataset from the `dataset` folder.
+1. Download the dataset from the `dataset` folder. The original dataset source is documented in [`dataset/README.md`](dataset/README.md).
 2. Import the dataset into Microsoft SQL Server.
 3. Execute the SQL scripts in the following order:
    - `01_Data_Quality_Assessment.sql`
