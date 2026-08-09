@@ -162,15 +162,16 @@ Purpose:
 Provides a high-level overview of the Swiggy restaurant ecosystem.
 
 Highlights
-• Total Restaurants
-• Average Rating
-• Average Delivery Time
-• Average Price
-• Fast Delivery %
-• Restaurant Distribution by City
-• Cuisine Analysis
-• Delivery Performance
-• Pricing Insights
+
+- Total Restaurants
+- Average Rating
+- Average Delivery Time
+- Average Price
+- Fast Delivery %
+- Restaurant Distribution by City
+- Cuisine Analysis
+- Delivery Performance
+- Pricing Insights
 
 <p align="center">
   <img src="images/executive-overview.png" width="100%">
@@ -194,6 +195,8 @@ Highlights
 <p align="center">
   <img src="images/restaurant-performance.png" width="100%">
 </p>
+
+📄 **[View Complete Project Report](docs/Swiggy_Restaurant_Performance_Analysis.pdf)**
 
 ## ⭐ Project Highlights
 
